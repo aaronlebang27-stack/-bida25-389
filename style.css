@@ -142,6 +142,7 @@ text-align:center;}
     }
     .gallery-item img{
         width:100%;
-        height: 300px;
-        object-fit:cover:
+        height: 600px;
+        object-fit:cotain:
+        border: radius 10px;
     }
