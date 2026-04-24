@@ -1,325 +1,169 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>TROPICAL TOWER</title> 
-    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TROPICAL TOWER</title>
+
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Bootstrap JS and dependencies --> 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
-    <style>
-</style>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</head>
 
+<body>
 
-</head> 
-<body> 
-    <header> 
+    <!-- HEADER -->
+    <header>
         <h1 class="logo">TROPICAL TOWER</h1>
-        <nav> 
-            <a href="index.html">Home</a> | 
-            <a href="about.html">About</a> | 
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
             <a href="services.html">Services</a> |
             <a href="pricing.html">Pricing</a> |
             <a href="gallery.html">Gallery</a> |
-            <a href="contact.html">Contact us</a> |
-        </nav> 
+            <a href="contact.html">Contact us</a>
+        </nav>
     </header>
-        <section class="hero">
-  <div class="hero__image"></div>
-  <div class="hero__overlay"></div>
-  <div class="services-label">
-    <div class="services-label__inner">
-      <span class="services-label__tag">Reality version of your ideas</span>
-      <h1 class="services-label__heading">GALLERY</h1>
-      <div class="services-label__rule"></div>
-    </div>
-  </div>
-</section>
-        <p>Reality version of your ideas</p>
-        <a href="#contact" class="btn">Get in touch with us</a>
-</section>
-        <!-- FILTER BUTTONS -->
-<div class="filter-buttons">
-    <button onclick="filterSelection('all')">all</button>
-    <button onclick="filterSelection('wedding')">Weddings</button>
-    <button onclick="filterSelection('birthday')">Birthdays</button>
-    <button onclick="filterSelection('babyshower')">BabyShower</button>
-    <button onclick="filterSelection('outdoor-cinema')">Outdoor Cinema</button>
-</div>
 
-<!-- GALLERY -->
-<div class="gallery">
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero__image"></div>
+        <div class="hero__overlay"></div>
 
-    <!-- WEDDINGS -->
-    <div class="gallery-item wedding">
-        <img src="image1.jpg.jpeg" alt="Wedding">
+        <div class="services-label">
+            <div class="services-label__inner">
+                <span class="services-label__tag">Reality version of your ideas</span>
+                <h1 class="services-label__heading">GALLERY</h1>
+                <div class="services-label__rule"></div>
+                <a href="contact.html" class="btn">Get in touch with us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FILTER BUTTONS -->
+    <div class="filter-buttons">
+        <button onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('wedding')">Weddings</button>
+        <button onclick="filterSelection('birthday')">Birthdays</button>
+        <button onclick="filterSelection('babyshower')">Baby Shower</button>
+        <button onclick="filterSelection('outdoor-cinema')">Outdoor Cinema</button>
     </div>
 
-    <div class="gallery-item wedding">
-        <img src="image2.jpg.jpeg" alt="Wedding">
+    <!-- GALLERY -->
+    <div class="gallery">
+
+        <!-- WEDDINGS -->
+        <div class="gallery-item wedding"><img src="image1.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image2.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image3.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image4.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image5.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image 6.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image7.jpg.jpeg" alt="Wedding"></div>
+        <div class="gallery-item wedding"><img src="image8.jpg.jpeg" alt="Wedding"></div>
+
+        <!-- BIRTHDAY -->
+        <div class="gallery-item birthday"><img src="birthday1.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday2.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday3.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday4.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday5.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday6.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday7.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday8.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday9.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday10.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday11.jpg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday12.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday15.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday16.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday17.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday18.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday19.jpg.jpeg" alt="Birthday"></div>
+        <div class="gallery-item birthday"><img src="birthday20.jpg.jpeg" alt="Birthday"></div>
+<div class="gallery-item birthday"><img src="birthday21.jpg.jpeg" alt="Birthday"></div>
+<div class="gallery-item birthday"><img src="birthday22.jpg.jpeg" alt="Birthday"></div>
+
+
+        <!-- BABY SHOWER -->
+        <div class="gallery-item babyshower"><img src="babyshower1.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower2.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower3.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower4.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower5.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower6.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower7.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower8.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower9.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower10.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower11.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower12.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower13.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower14.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower15.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower16.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower17.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower18.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower19.jpg.jpeg" alt="Baby Shower"></div>
+        <div class="gallery-item babyshower"><img src="babyshower20.jpg.jpeg" alt="Baby Shower"></div>
+
+        <!-- OUTDOOR CINEMA -->
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema1.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema2.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema3.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema4.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema5.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema6.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema7.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema8.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema9.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema10.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema11.jpg.jpeg" alt="Outdoor Cinema"></div>
+        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema12.jpg.jpeg" alt="Outdoor Cinema"></div>
+
     </div>
 
-    <div class="gallery-item wedding">
-        <img src="image3.jpg.jpeg" alt="Wedding">
-    </div>
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
 
-    <div class="gallery-item wedding">
-        <img src="image4.jpg.jpeg" alt="Wedding">
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
 
-    <div class="gallery-item wedding">
-        <img src="image5.jpg.jpeg" alt="Wedding">
-    </div>
+            <div class="footer-box">
+                <h2 class="logo">TROPICAL TOWER</h2>
+                <p>Luxury event décor for weddings, birthdays, baby showers, corporate and outdoor events.</p>
+            </div>
 
-    <div class="gallery-item wedding">
-        <img src="image 6.jpg.jpeg" alt="Wedding">
-    </div>
-<div class="gallery-item wedding">
-        <img src="image7.jpg.jpeg" alt="Wedding">
-    </div>
-    <div class="gallery-item wedding">
-        <img src="image8.jpg.jpeg" alt="Wedding">
-    </div>
-   <!-- BIRTHDAY -->
-<div class="gallery-item birthday">
-    <img src="birthday11.jpg" alt="Birthday">
-</div>
-<div class="gallery-item birthday">
-    <img src="birthday1.jpg.jpeg" alt="Birthday">
-</div>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
 
-<div class="gallery-item birthday">
-    <img src="birthday2.jpg" alt="Birthday">
-</div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>Email: tropicaltower27@gmail.com</p>
+                <p>Phone: +267 77387923</p>
+                <p>Location: Gaborone, Plot 24385 block 9 Fairgrounds</p>
+            </div>
 
-<div class="gallery-item birthday">
-    <img src="birthday3.jpg" alt="Birthday">
-</div>
+        </div>
 
-<div class="gallery-item birthday">
-    <img src="birthday4.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday5.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday6.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday7.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday8.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday9.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday10.jpg.jpeg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday11.jpg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday12.jpg.jpeg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday15.jpg.jpeg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday16.jpg.jpeg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday17.jpg.jpeg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday18.jpg.jpeg" alt="Birthday">
-</div>
-
-<div class="gallery-item birthday">
-    <img src="birthday19.jpg.jpeg" alt="Birthday">
-</div>
-
-<!-- BABY SHOWER -->
-<div class="gallery-item babyshower">
-    <img src="babyshower1.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower2.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower3.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower4.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower5.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower6.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower7.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower8.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower9.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower10.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower11.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower12.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower13.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower14.jpg.jpeg" alt="Baby Shower">
-</div>
-
-<div class="gallery-item babyshower">
-    <img src="babyshower15.jpg.jpeg" alt="Baby Shower">
-</div>
-<div class="gallery-item babyshower">
-    <img src="babyshower16.jpg.jpeg" alt="Baby Shower">
-</div>
-<div class="gallery-item babyshower">
-    <img src="babyshower17.jpg.jpeg" alt="Baby Shower">
-</div>
-<div class="gallery-item babyshower">
-    <img src="babyshower18.jpg.jpeg" alt="Baby Shower">
-</div>
-<div class="gallery-item babyshower">
-    <img src="babyshower19.jpg.jpeg" alt="Baby Shower">
-    </div>
-    
-<div class="gallery-item babyshower">
-    <img src="babyshower20.jpg.jpeg" alt="Baby Shower">
-</div>
-<!-- OUTDOOR CINEMA -->
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema1.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema2.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema3.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema4.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema5.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema6.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema7.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema8.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema9.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema10.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema11.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-
-<div class="gallery-item outdoor-cinema">
-    <img src="outdoorcinema12.jpg.jpeg" alt="Outdoor Cinema">
-</div>
-<script src="script.js"></script>
+        <div class="footer-bottom">
+            <p>© 2026 Tropical Tower. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
-<footer> 
-
-        <footer class="footer">
-
-  <div class="footer-container">
-
-    <!-- Brand Section -->
-    <div class="footer-box">
-      <h2>TROPICAL TOWER</h2>
-      <p>Luxury event décor for weddings, birthdays, baby showers, corporate and outdoor events.</p>
-    </div>
-
-    <!-- Quick Links -->
-    <div class="footer-box">
-      <h3>Quick Links</h3>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
-    </div>
-
-    <!-- Contact Info -->
-    <div class="footer-box">
-      <h3>Contact</h3>
-      <p>Email: tropicaltower27@gmail.com</p>
-      <p>Phone: +267 77387923</p>
-      <p>Location: Gaborone, Plot 24385 block 9 Fairgrounds</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 Tropical Tower. All Rights Reserved.</p>
-  </div>
-
-</footer>
-   </html>
+</html>
