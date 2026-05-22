@@ -130,7 +130,7 @@ nav a:hover {
 
 
 .about-cards {
-    display: grid;
+    display: inline;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     padding: 60px 40px;
@@ -624,7 +624,6 @@ nav a:hover {
     color: #888;
 }
 
-/* Card Title */
 .pricing-card h2 {
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
@@ -719,7 +718,6 @@ nav a:hover {
     color: #e6a017;
 }
 
-/* SAVINGS TAG */
 .savings {
     background: #e8f5e9;
     color: #2e7d32;
@@ -731,7 +729,7 @@ nav a:hover {
     margin-left: 10px;
 }
 
-@media (max-width: 768px) {
+ @media(max-width: 768px) {
     .pricing-container {
         padding: 20px;
     }
