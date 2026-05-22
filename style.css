@@ -353,8 +353,6 @@ nav a:hover {
 .gallery-item:hover img {
     transform: scale(1.05);
 }
-
-/* Lightbox */
 #lightbox {
     position: fixed;
     top: 0;
@@ -515,6 +513,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .footer-box h2, 
@@ -565,7 +564,6 @@ nav a:hover {
         height: 400px;
     }
 }
-/
 .pricing-title {
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -733,10 +731,6 @@ nav a:hover {
     margin-left: 10px;
 }
 
-
-
-
-/* Responsive */
 @media (max-width: 768px) {
     .pricing-container {
         padding: 20px;
