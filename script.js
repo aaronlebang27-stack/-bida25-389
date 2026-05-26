@@ -1,8 +1,4 @@
-// ========================================
-// TROPICAL TOWER - MAIN SCRIPT
-// ========================================
 
-// ---------- GALLERY FILTER FUNCTIONALITY ----------
 function filterSelection(category) {
     var items = document.getElementsByClassName("gallery-item");
     
@@ -20,7 +16,6 @@ function filterSelection(category) {
         }
     }
     
-    // Update active button styling
     var buttons = document.getElementsByClassName("filter-btn");
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].classList.remove("active");
@@ -29,8 +24,6 @@ function filterSelection(category) {
         event.currentTarget.classList.add("active");
     }
 }
-
-// Initialize gallery on page load
 window.onload = function() {
     var gallerySection = document.querySelector('.gallery');
     if (gallerySection) {
@@ -42,7 +35,6 @@ window.onload = function() {
     }
 }
 
-// ---------- LIGHTBOX FUNCTIONALITY ----------
 document.addEventListener('DOMContentLoaded', function() {
     var galleryItems = document.querySelectorAll('.gallery-item');
     
@@ -53,8 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             var src = img.src;
             var alt = img.alt;
-            
-            // Create lightbox
+        
             var lightbox = document.createElement('div');
             lightbox.id = 'lightbox';
             lightbox.innerHTML = `
@@ -65,8 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `;
             document.body.appendChild(lightbox);
-            
-            // Close lightbox when clicking outside or on X
             lightbox.addEventListener('click', function(e) {
                 if (e.target === lightbox || e.target.className === 'close-lightbox') {
                     lightbox.remove();
@@ -76,7 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// ---------- SMOOTH SCROLL FOR NAVIGATION ----------
 document.querySelectorAll('nav a, .btn').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         if (this.getAttribute('href') && this.getAttribute('href').startsWith('#')) {

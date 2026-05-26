@@ -6,33 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TROPICAL TOWER</title>
 
-    <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <!-- MAIN CSS -->
+    
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap JS -->
+
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    
     <header>
         <h1 class="logo">TROPICAL TOWER</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="services.html">Services</a> |
-            <a href="pricing.html">Pricing</a> |
-            <a href="gallery.html">Gallery</a> |
-            <a href="contact.html">Contact us</a>
-        </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-white bg-white"> 
+
+        <div class="container"> 
+
+            <a class="navbar-brand" href="index.html"></a> 
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+
+                <span class="navbar-toggler-icon"></span> 
+
+            </button> 
+
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+
+                <ul class="navbar-nav"> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="index.html">Home</a>
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="about.html">About</a> 
+
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="contact.html">Contact</a> 
+
+                    </li> 
+
+                </ul> 
+
+            </div> 
+
+        </div> 
+
     </header>
 
-    <!-- HERO -->
+    
     <section class="hero">
         <div class="hero__image"></div>
         <div class="hero__overlay"></div>
@@ -42,13 +82,12 @@
                 <span class="services-label__tag">Reality version of your ideas</span>
                 <h1 class="services-label__heading">GALLERY</h1>
                 <div class="services-label__rule"></div>
-                <a href="contact.html" class="btn">Get in touch with us</a>
+                
             </div>
         </div>
     </section>
 
-    <!-- FILTER BUTTONS -->
-    <div class="filter-buttons">
+<div class="filter-buttons">
         <button onclick="filterSelection('all')">All</button>
         <button onclick="filterSelection('wedding')">Weddings</button>
         <button onclick="filterSelection('birthday')">Birthdays</button>
@@ -56,11 +95,9 @@
         <button onclick="filterSelection('outdoor-cinema')">Outdoor Cinema</button>
     </div>
 
-    <!-- GALLERY -->
-    <div class="gallery">
+ <div class="gallery">
 
-        <!-- WEDDINGS -->
-        <div class="gallery-item wedding"><img src="image1.jpg.jpeg" alt="Wedding"></div>
+    <div class="gallery-item wedding"><img src="image1.jpg.jpeg" alt="Wedding"></div>
         <div class="gallery-item wedding"><img src="image2.jpg.jpeg" alt="Wedding"></div>
         <div class="gallery-item wedding"><img src="image3.jpg.jpeg" alt="Wedding"></div>
         <div class="gallery-item wedding"><img src="image4.jpg.jpeg" alt="Wedding"></div>
@@ -69,8 +106,7 @@
         <div class="gallery-item wedding"><img src="image7.jpg.jpeg" alt="Wedding"></div>
         <div class="gallery-item wedding"><img src="image8.jpg.jpeg" alt="Wedding"></div>
 
-        <!-- BIRTHDAY -->
-        <div class="gallery-item birthday"><img src="birthday1.jpg.jpeg" alt="Birthday"></div>
+    <div class="gallery-item birthday"><img src="birthday1.jpg.jpeg" alt="Birthday"></div>
         <div class="gallery-item birthday"><img src="birthday2.jpg" alt="Birthday"></div>
         <div class="gallery-item birthday"><img src="birthday3.jpg" alt="Birthday"></div>
         <div class="gallery-item birthday"><img src="birthday4.jpg" alt="Birthday"></div>
@@ -92,8 +128,7 @@
 <div class="gallery-item birthday"><img src="birthday22.jpg.jpeg" alt="Birthday"></div>
 
 
-        <!-- BABY SHOWER -->
-        <div class="gallery-item babyshower"><img src="babyshower1.jpg.jpeg" alt="Baby Shower"></div>
+    <div class="gallery-item babyshower"><img src="babyshower1.jpg.jpeg" alt="Baby Shower"></div>
         <div class="gallery-item babyshower"><img src="babyshower2.jpg.jpeg" alt="Baby Shower"></div>
         <div class="gallery-item babyshower"><img src="babyshower3.jpg.jpeg" alt="Baby Shower"></div>
         <div class="gallery-item babyshower"><img src="babyshower4.jpg.jpeg" alt="Baby Shower"></div>
@@ -114,8 +149,7 @@
         <div class="gallery-item babyshower"><img src="babyshower19.jpg.jpeg" alt="Baby Shower"></div>
         <div class="gallery-item babyshower"><img src="babyshower20.jpg.jpeg" alt="Baby Shower"></div>
 
-        <!-- OUTDOOR CINEMA -->
-        <div class="gallery-item outdoor-cinema"><img src="outdoorcinema1.jpg.jpeg" alt="Outdoor Cinema"></div>
+     <div class="gallery-item outdoor-cinema"><img src="outdoorcinema1.jpg.jpeg" alt="Outdoor Cinema"></div>
         <div class="gallery-item outdoor-cinema"><img src="outdoorcinema2.jpg.jpeg" alt="Outdoor Cinema"></div>
         <div class="gallery-item outdoor-cinema"><img src="outdoorcinema3.jpg.jpeg" alt="Outdoor Cinema"></div>
         <div class="gallery-item outdoor-cinema"><img src="outdoorcinema4.jpg.jpeg" alt="Outdoor Cinema"></div>
@@ -128,12 +162,11 @@
         <div class="gallery-item outdoor-cinema"><img src="outdoorcinema11.jpg.jpeg" alt="Outdoor Cinema"></div>
         <div class="gallery-item outdoor-cinema"><img src="outdoorcinema12.jpg.jpeg" alt="Outdoor Cinema"></div>
 
-    </div>
+    </div> 
 
-    <!-- SCRIPT -->
-    <script src="script.js"></script>
+ <script src="script.js"></script>
 
-    <!-- FOOTER -->
+    
     <footer class="footer">
         <div class="footer-container">
 

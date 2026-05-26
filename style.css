@@ -31,20 +31,20 @@ header {
 
 .logo {
     font-size: 1.8rem;
-    color: gold
+    color: gold;
     letter-spacing: 2px;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
+.navbar-nav .nav-link{
+    color: black !important;
+    font-size: 1.1rem;
     font-weight: 500;
-    margin: 0 5px;
-    transition: color 0.3s;
+    margin-left: 15px;
+    transition: 0.3s;
 }
 
-nav a:hover {
-    color: gold;
+.navbar-nav .nav-link:hover{
+    color: gold !important;
 }
 
 
@@ -118,13 +118,13 @@ nav a:hover {
     border-radius: 40px;
     font-weight: 600;
     margin-top: 25px;
-    transition: background 0.3s, transform 0.2s;
+    transition: 0.3s, transform 0.2s;
     border: none;
     cursor: pointer;
 }
 
 .btn:hover {
-    background:gold
+    background:gold;
     transform: translateY(-2px);
 }
 
@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .about-card h2 {
-    color: gold
+    color: gold;
     margin-bottom: 20px;
     font-size: 1.8rem;
 }
@@ -316,7 +316,7 @@ nav a:hover {
 
 .filter-buttons button:hover,
 .filter-buttons button.active {
-    background: #fff;
+    background: #ffffff;
     color: white;
 }
 
@@ -575,7 +575,7 @@ nav a:hover {
 
 .pricing-subtitle {
     text-align: center;
-    color: black
+    color: black;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
     font-size: 1.1rem;
@@ -613,7 +613,7 @@ nav a:hover {
 .price {
     font-size: 3rem;
     font-weight: 700;
-    color: black
+    color: black;
     font-family: 'Playfair Display', serif;
     margin: 20px 0;
 }
