@@ -317,7 +317,7 @@ header {
 .filter-buttons button:hover,
 .filter-buttons button.active {
     background: #ffffff;
-    color: white;
+    color: none;
 }
 
 .gallery {
@@ -460,13 +460,13 @@ header {
 .submit-btn {
     background: #fff;
     color: white;
-    border: none;
+    border: gold;
     padding: 14px 30px;
     border-radius: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s;
+    transition:  0.3s;
     width: 100%;
 }
 
